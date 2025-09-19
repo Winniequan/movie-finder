@@ -11,7 +11,6 @@ const Navbar = () => {
             <div className="flex items-center gap-8">
                 <div className='flex gap-8 text-lg'>
                     <Link to="/" className="hover:text-gray-300 transition-colors">Home</Link>
-                    <Link to="/about" className="hover:text-gray-300 transition-colors">About</Link>
                     <Link to="/favorites" className="hover:text-gray-300 transition-colors">Favorites</Link>
                 </div>
                 <button

@@ -1,5 +1,4 @@
 import React from 'react'
-import { useContext } from 'react'
 import { useMovieContext } from '../contexts/MovieContext'
 import { useTheme } from '../contexts/ThemeContext'
 import MovieCard from '../components/MovieCard' 
