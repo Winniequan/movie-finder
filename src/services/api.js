@@ -1,4 +1,4 @@
-const API_KEY ="your_api_key_here"; // Replace with your actual API key
+const API_KEY ="";  // Replace with your actual API key
 const BASE_URL = "https://api.themoviedb.org/3";
 
 export const getPopularMovies = async () => {
@@ -15,4 +15,10 @@ export const searchMovies = async (query) => {
   );
   const data = await response.json();
   return data.results;
+};
+
+export const getMovieDetails = async (movieId) => {
+  const response = await fetch(`${BASE_URL}/movie/${movieId}?api_key=${API_KEY}`);
+  const data = await response.json();
+  return data;
 };
