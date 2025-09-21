@@ -1,4 +1,4 @@
-# 🎬 Movie Finder
+# 🎬 Movie Finder  link: https://moviefindere.netlify.app/
 
 A modern, responsive React application for discovering and exploring movies using The Movie Database (TMDb) API. Built with React, Vite, and Tailwind CSS, featuring a beautiful dark/light theme toggle and favorites management.
 
